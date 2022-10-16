@@ -1,0 +1,23 @@
+[database]
+master_db_ip=193.169.203.102
+master_db_user=root
+master_db_port=3306
+master_db_passwd=Root123...
+# IMPORTANT: backup_dir is same as database configuration
+master_db_backup_dir=/var/lib/mysql-files/backup
+
+slave_db_ip=193.169.203.103
+slave_db_user=root
+slave_db_port=3306
+slave_db_passwd=Root123...
+slave_db_backup_dir=/var/lib/mysql-files/backup
+
+# database log in configuration
+[system]
+master_os_ip=193.169.203.102
+master_os_user=root
+master_os_passwd=123123
+
+slave_os_ip=193.169.203.103
+slave_os_user=root
+slave_os_passwd=123123
